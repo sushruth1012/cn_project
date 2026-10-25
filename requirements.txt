@@ -1,0 +1,18 @@
+# Core Data Analysis & Graphing Dependencies
+pandas>=1.3.0
+matplotlib>=3.4.0
+numpy>=1.20.0
+
+# SDN Controller Framework (Install in Linux / Mininet Environment)
+# Note: Ryu requires Python <= 3.10 and setuptools < 58 or eventlet compat.
+ryu>=4.34
+eventlet>=0.30.2
+webob>=1.8.7
+routes>=2.5.1
+greenlet>=1.1.2
+
+# Note on Mininet:
+# Mininet and Open vSwitch are system packages in Ubuntu / Debian.
+# Install system packages via:
+#   sudo apt update
+#   sudo apt install -y mininet openvswitch-switch openvswitch-testcontroller

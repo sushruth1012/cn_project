@@ -1,0 +1,47 @@
+=================================================================
+        BANDWIDTH METER & TRAFFIC ANALYZER REPORT        
+=================================================================
+Generated at           : 2026-10-25 13:35:03
+Total Connections      : 7
+Total Traffic Volume   : 27.93 MB (29,286,400 bytes)
+  - Total Sent         : 10.46 MB
+  - Total Received     : 17.46 MB
+Average Bandwidth      : 5479.27 Mbps
+Peak Bandwidth         : 7846.43 Mbps
+Minimum Bandwidth      : 276.94 Mbps
+Average Throughput     : 5479266.33 Kbps
+Peak Throughput        : 7846429.81 Kbps
+Average Connection Time: 0.0152 s
+-----------------------------------------------------------------
+CLIENT PERFORMANCE BREAKDOWN:
+  [h2]
+    - Sessions   : 1
+    - Volume     : 5.00 MB
+    - Avg Speed  : 7512.57 Mbps
+    - Peak Speed : 7512.57 Mbps
+  [h3]
+    - Sessions   : 1
+    - Volume     : 8.00 MB
+    - Avg Speed  : 7846.43 Mbps
+    - Peak Speed : 7846.43 Mbps
+  [h4-udp]
+    - Sessions   : 2
+    - Volume     : 2.93 MB
+    - Avg Speed  : 319.14 Mbps
+    - Peak Speed : 361.34 Mbps
+  [concurrent-client-2]
+    - Sessions   : 2
+    - Volume     : 8.00 MB
+    - Avg Speed  : 7767.8 Mbps
+    - Peak Speed : 7806.17 Mbps
+  [concurrent-client-1]
+    - Sessions   : 1
+    - Volume     : 4.00 MB
+    - Avg Speed  : 6821.98 Mbps
+    - Peak Speed : 6821.98 Mbps
+-----------------------------------------------------------------
+MODE PERFORMANCE BREAKDOWN:
+  [UPLOAD]: 4 transfers | Volume: 17.00 MB | Avg: 7467.54 Mbps
+  [DOWNLOAD]: 1 transfers | Volume: 8.00 MB | Avg: 7846.43 Mbps
+  [BURST]: 2 transfers | Volume: 2.93 MB | Avg: 319.14 Mbps
+=================================================================

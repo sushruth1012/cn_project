@@ -1,0 +1,82 @@
+{
+    "timestamp": "2026-10-25 13:35:03",
+    "total_transfers": 7,
+    "total_bytes": 29286400,
+    "total_formatted": "27.93 MB",
+    "total_sent_bytes": 10973184,
+    "total_sent_formatted": "10.46 MB",
+    "total_received_bytes": 18313216,
+    "total_received_formatted": "17.46 MB",
+    "average_bandwidth_mbps": 5479.27,
+    "peak_bandwidth_mbps": 7846.43,
+    "min_bandwidth_mbps": 276.94,
+    "average_throughput_kbps": 5479266.33,
+    "peak_throughput_kbps": 7846429.81,
+    "average_duration_sec": 0.0152,
+    "total_duration_sec": 0.1061,
+    "client_breakdown": {
+        "h2": {
+            "transfers": 1,
+            "total_bytes": 5242880,
+            "formatted_bytes": "5.00 MB",
+            "avg_bandwidth_mbps": 7512.57,
+            "peak_bandwidth_mbps": 7512.57,
+            "avg_throughput_kbps": 7512570.37
+        },
+        "h3": {
+            "transfers": 1,
+            "total_bytes": 8388608,
+            "formatted_bytes": "8.00 MB",
+            "avg_bandwidth_mbps": 7846.43,
+            "peak_bandwidth_mbps": 7846.43,
+            "avg_throughput_kbps": 7846429.81
+        },
+        "h4-udp": {
+            "transfers": 2,
+            "total_bytes": 3072000,
+            "formatted_bytes": "2.93 MB",
+            "avg_bandwidth_mbps": 319.14,
+            "peak_bandwidth_mbps": 361.34,
+            "avg_throughput_kbps": 319138.95
+        },
+        "concurrent-client-2": {
+            "transfers": 2,
+            "total_bytes": 8388608,
+            "formatted_bytes": "8.00 MB",
+            "avg_bandwidth_mbps": 7767.8,
+            "peak_bandwidth_mbps": 7806.17,
+            "avg_throughput_kbps": 7767802.11
+        },
+        "concurrent-client-1": {
+            "transfers": 1,
+            "total_bytes": 4194304,
+            "formatted_bytes": "4.00 MB",
+            "avg_bandwidth_mbps": 6821.98,
+            "peak_bandwidth_mbps": 6821.98,
+            "avg_throughput_kbps": 6821981.99
+        }
+    },
+    "mode_breakdown": {
+        "UPLOAD": {
+            "count": 4,
+            "total_bytes": 17825792,
+            "formatted_bytes": "17.00 MB",
+            "avg_bandwidth_mbps": 7467.54,
+            "peak_bandwidth_mbps": 7806.17
+        },
+        "DOWNLOAD": {
+            "count": 1,
+            "total_bytes": 8388608,
+            "formatted_bytes": "8.00 MB",
+            "avg_bandwidth_mbps": 7846.43,
+            "peak_bandwidth_mbps": 7846.43
+        },
+        "BURST": {
+            "count": 2,
+            "total_bytes": 3072000,
+            "formatted_bytes": "2.93 MB",
+            "avg_bandwidth_mbps": 319.14,
+            "peak_bandwidth_mbps": 361.34
+        }
+    }
+}
